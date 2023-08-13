@@ -10,4 +10,5 @@ Experimenting with a C++ chess AI
     an executable for the project. 
 - Then call `cmake --build .`
     - This will make an executable called `chess_build` using your local c++ compiler
-- Run the executable by calling `./chess_build`
+    - It will also make a unit tests executable called `test_unit` which holds all the unit tests
+- Run these executables by calling `./chess_build` or `./test_unit` respectively

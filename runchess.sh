@@ -5,7 +5,7 @@
 cd build
 
 if cmake --build .; then
-    # Only run the unit tests if they built successfuly
+    # Only run the main if it built successfuly
     ./Chess
 fi
 
